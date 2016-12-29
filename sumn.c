@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+#include<math.h>
 void main()
 {
 int i=1,n,sum=0;
