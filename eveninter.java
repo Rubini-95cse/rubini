@@ -13,7 +13,7 @@ public class eveninter {
         int b=sc.nextInt();
         for(i=a;i<=b;i++){
         	if(i%2==0){
-        	 System.out.println("Odd number: "+i);
+        	 System.out.println("Even number: "+i);
         	}
         }
 	}
