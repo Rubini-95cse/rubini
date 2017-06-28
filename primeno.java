@@ -6,20 +6,28 @@ public class primeno {
 
 	public static void main(String[] args) {
 		int flag=0;
+		int i;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number");
          int a=sc.nextInt();
-         int b=a/2;
-         for(int i=2;i<b;i++){
-        	 if(a%2==0){
+         System.out.println("Enter the number");
+         int b=sc.nextInt();
+         for(i=a;i<b;i++){
+        	 for(int j=a;j<i;j++){
+        	 if(i%j==0){
+        		 flag=0;
+        		 break;
+        	 }
+        	 else{
         		 flag=1;
         	 }
-        	 System.out.println("Not a Prime");
-         } 
-        	if(flag==0){
-        		 System.out.println("Prime");
+        	}
+        	 if(flag==1){
+        		 System.out.println(i);
         	 }
+        	}
          }
 	}
+	
 
 
