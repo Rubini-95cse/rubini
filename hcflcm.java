@@ -20,10 +20,7 @@ public class hcflcm {
 	        }
 
 	        gcd = temp1;
-
-	        lcm = (a * b) / gcd;
 	        System.out.println("GCD = " + gcd);
-	        System.out.println("LCM = " + lcm);
 	    }
 	}
 	
