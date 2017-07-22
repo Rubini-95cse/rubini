@@ -13,7 +13,7 @@ public class Index {
 		}
 		for(int i=0;i<n;i++){
           if(a[i]==i){
-        	  System.out.println("The number "+a[i]+" is equal to "+i);
+        	  System.out.println("The number "+a[i]+" is equal to its index "+i);
           }
           
 	   }
