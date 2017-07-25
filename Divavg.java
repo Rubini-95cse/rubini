@@ -32,8 +32,19 @@ public class Divavg {
 		avg1=sum1/n2;
 	//	System.out.println(avg);
 		if(avg==avg1){
-			System.out.println("Possible");
+                      System.out.print("[");
+			for(int i=0;i<=n2;i++){
+			System.out.print(a[i]+",");
+			}
+			System.out.print("]");
+			System.out.print(",");
+			System.out.print("[");
+			for(int i=a.length-1;i>=avg;i--){
+			System.out.print(a[i]+",");
+        	}
+			System.out.print("]");
 		}
+		
 		else{
 			System.out.println("Not Possible");
 		}
