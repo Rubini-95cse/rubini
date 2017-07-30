@@ -26,7 +26,7 @@ public class Maxmin {
 	   }
 	   System.out.print(a[n-1]);*/
 	   int diff=a[n-1]-a[0];
-	   System.out.println(diff);
+	   System.out.println(diff+"thousand");
 	}
 }
 
