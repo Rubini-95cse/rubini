@@ -12,6 +12,12 @@ public class Encrypt {
 			if(ch[i] > 'a'&& ch[i] <='z'){	
              System.out.print((char)(ch[i]-1));
 			}
+			if(ch[i]=='A'){
+				System.out.print('Z');
+			}
+			if(ch[i] > 'A'&& ch[i] <='Z'){	
+             System.out.print((char)(ch[i]-1));
+			}
 		}
 		System.out.print(ch[str.length()-1]);
 	}
